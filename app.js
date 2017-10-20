@@ -18,8 +18,8 @@ function getRandomColor() {
 }
 
 // set sky values
-sky.setAttribute('color', `#${getRandomColor()}`);
-sky.setAttribute('animation__color', `property: color; dir: alternate; dur: 2000; easing: easeInOutSine; loop: true; to: #${getRandomColor()}`);
+// sky.setAttribute('color', `#${getRandomColor()}`);
+// sky.setAttribute('animation__color', `property: color; dir: alternate; dur: 2000; easing: easeInOutSine; loop: true; to: #${getRandomColor()}`);
 
 // change this value for more or less rings
 let totalRingElements = 10;
