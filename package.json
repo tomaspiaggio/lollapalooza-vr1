@@ -3,15 +3,11 @@
   "description": "therapeutic psychedelia experiment in web VR",
   "version": "0.0.0",
   "scripts": {
-    "start": "budo app.js --live --verbose --port 3000",
+    "start": "node index.js",
     "deploy": "ghpages",
     "ghpages": "ghpages"
   },
-  "devDependencies": {
-    "budo": "^7.0.0",
-    "ghpages": "0.0.3",
-    "nodemon": "^1.11.0"
-  },
+  "devDependencies": {},
   "keywords": [
     "visualizer",
     "loop",
@@ -22,5 +18,8 @@
     "aframe-scene",
     "webvr",
     "vr"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
